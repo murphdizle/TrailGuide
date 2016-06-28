@@ -1,0 +1,14 @@
+<!-- Copyright (c) 2016 Amanda Murphy & Randy Perrone
+ This code is available under the "MIT License".
+ Please see the file COPYING in this distribution
+ for license terms.
+-->
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amanda.trails.MapsActivity" />

@@ -1,0 +1,24 @@
+<!-- Copyright (c) 2016 Amanda Murphy & Randy Perrone
+ This code is available under the "MIT License".
+ Please see the file COPYING in this distribution
+ for license terms.
+-->
+
+<resources>
+    <string name="app_name">trails</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="choose_state">Please choose a state from the list:</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

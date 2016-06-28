@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016 Amanda Murphy & Randy Perrone
+ This code is available under the "MIT License".
+ Please see the file COPYING in this distribution
+ for license terms.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/hikingbg"
+    tools:context="com.example.amanda.trails.TrailListActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView_Trails"
+        android:layout_below="@+id/TVSortBy"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sort By:"
+        android:id="@+id/TVSortBy"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name"
+        android:id="@+id/TVNameSort"
+        android:layout_marginStart="27dp"
+        android:layout_alignTop="@+id/TVSortBy"
+        android:layout_toEndOf="@+id/TVSortBy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Distance"
+        android:id="@+id/TVDistanceSort"
+        android:layout_marginStart="31dp"
+        android:layout_above="@+id/ListView_Trails"
+        android:layout_toEndOf="@+id/TVNameSort" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Elevation"
+        android:id="@+id/TVElevationSort"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/ListView_Trails" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/ListView_Trails"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="432dp" />
+
+</RelativeLayout>
